@@ -1,0 +1,40 @@
+/* Layout simples do contador. */
+
+.aula {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  text-align: center;
+}
+
+/* O número grande do contador */
+.numero {
+  font-size: 72px;
+  font-weight: 700;
+  margin: 24px 0;
+  color: var(--text-h);
+}
+
+/* Alinha os botões lado a lado, com espaço entre eles */
+.linha {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  opacity: 0.85;
+}
