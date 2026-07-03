@@ -11,19 +11,24 @@ O objetivo é revisar **componentes** e **props** e introduzir o hook **`useStat
 - **useState:** o estado `contador` guarda o número atual; cada clique chama `setContador`, o React atualiza o valor e **re-renderiza** a tela.
 - **Ícones:** uso da biblioteca [`react-icons`](https://react-icons.github.io/react-icons/) nos botões.
 
-## Como rodar
+## Como rodar (no laboratório)
 
 Pré-requisito: ter o [Node.js](https://nodejs.org/) instalado.
 
-```bash
-# 1. Instalar as dependências (só na primeira vez, ou após clonar o projeto)
-npm install
+**Passo a passo:**
 
-# 2. Rodar o projeto em modo de desenvolvimento
+1. **Baixar o projeto**: nesta página do GitHub, clique no botão verde **Code** → **Download ZIP**.
+2. **Extrair** o arquivo para a pasta **Documentos** (ex.: `C:\Users\<sua-matricula>\Documents\pi-hooks-use-state`).
+3. **Abrir o terminal** dentro da pasta extraída (no VS Code: `Terminal → Novo Terminal`) e rodar:
+
+```bash
+npm install
 npm run dev
 ```
 
 Depois abra o endereço que aparece no terminal (geralmente <http://localhost:5173>).
+
+> **Observação para os alunos do lab do IFRN:** os scripts em `package.json` chamam o `node` diretamente (`node node_modules/vite/bin/vite.js`) para funcionar mesmo quando o `vite.cmd` está bloqueado pelas políticas do Windows.
 
 ## Estrutura dos arquivos
 
